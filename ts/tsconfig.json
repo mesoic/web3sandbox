@@ -1,0 +1,15 @@
+{
+    "compilerOptions":
+    {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "module": "ESNext",
+        "target" : "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "plugins": []
+    },
+    "include": ["src/**/*"]
+}
