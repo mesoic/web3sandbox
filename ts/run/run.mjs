@@ -21,8 +21,8 @@ if (process.argv[3] == "start") {
 
 	msg.message("env:")
 	msg.message(`  APP_ROOT : ${env.getEnv('APP_ROOT')}`)
-	msg.message(`  APP_ROOT : ${env.getEnv('APP_HOST')}`)
-	msg.message(`  APP_ROOT : ${env.getEnv('APP_PORT')}`)
+	msg.message(`  APP_HOST : ${env.getEnv('APP_HOST')}`)
+	msg.message(`  APP_PORT : ${env.getEnv('APP_PORT')}`)
 
 } else {
 
