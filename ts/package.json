@@ -22,6 +22,7 @@
     "axios": "^1.2.3",
     "bn": "^1.0.5",
     "compute-variance": "^3.0.0",
+    "cpx": "^1.5.0",
     "eth-ens-namehash": "^2.0.8",
     "import-meta-resolve": "^2.1.0",
     "kafkajs": "^2.2.2",
