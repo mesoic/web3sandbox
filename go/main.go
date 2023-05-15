@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-
 	m := msg.Msg{}
-	m.Warning("This is a warning")
+	m.Message("-- web3sandbox --")
 }
