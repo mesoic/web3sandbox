@@ -12,7 +12,7 @@ func Run() {
 		utils.NewInt(2),
 		utils.NewInt(3),
 		utils.NewInt(4),
-		utils.NewInt(5),	
+		utils.NewInt(5),
 		utils.NewNull(),
 		utils.NewInt(6),
 		utils.NewInt(7),

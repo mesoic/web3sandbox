@@ -1,11 +1,11 @@
 package run
 
-import(
+import (
 	"fmt"
 	"strconv"
 	"strings"
 
-	"github.com/mesoic/web3sandbox/go/src/utils"	
+	"github.com/mesoic/web3sandbox/go/src/utils"
 )
 
 type AnyTree struct {
@@ -18,10 +18,10 @@ func (n *AnyTree) AddChild(value int) {
 }
 
 func (n *AnyTree) ShowTree(depth ...int) {
-	if (len(depth) == 0) {
+	if len(depth) == 0 {
 		depth = []int{0}
 	}
-	fmt.Printf("%s %s\n", strings.Repeat(" ", depth[0]), strconv.Itoa(n.value))	
+	fmt.Printf("%s %s\n", strings.Repeat(" ", depth[0]), strconv.Itoa(n.value))
 	if len(n.child) != 0 {
 		for _, n := range n.child {
 			n.ShowTree(depth[0] + 1)
@@ -57,9 +57,8 @@ func BuildTree(data []utils.NullableInt) *AnyTree {
 		} else {
 			ptr = ptr[0].child
 			cix = 0
-		}		
+		}
 	}
 
 	return tree
 }
-
